@@ -43,7 +43,7 @@ def main(stdscr):
 
         # Menentukan hasil permainan berdasarkan aturan permainan batu-gunting-kertas
         if playerChoice == computer:
-            result = "Seri"
+            result = "Seri!"
             # Seri jika pilihan sama
         elif (playerChoice == "gunting" and computer == "kertas") or \
              (playerChoice == "batu" and computer == "gunting") or \
