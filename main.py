@@ -32,7 +32,7 @@ def main(stdscr):
             playerChoice = option[2]
         else:
             # Jika input tidak valid, menampilkan pesan error dan memulai kembali
-            stdscr.addstr("\Input salah! Masukkan input yang benar!\n")
+            stdscr.addstr("\nInput salah! Masukkan input yang benar!\n")
             stdscr.refresh()
             stdscr.getch()
             continue
