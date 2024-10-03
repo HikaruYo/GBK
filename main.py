@@ -14,10 +14,10 @@ def main(stdscr):
         computer = random.choice(option)
         
         stdscr.addstr("Ini adalah game gunting batu kertas!\n")
-        stdscr.addstr("Pilih gacok mu!\n")
         stdscr.addstr("1. Gunting\n")
         stdscr.addstr("2. Batu\n")
         stdscr.addstr("3. Kertas\n")
+        stdscr.addstr("Pilih gacok mu! = \n")
         
         # Player memilih pilihannya dan dimasukkan ke variabel playerChoice
         player = stdscr.getkey()
